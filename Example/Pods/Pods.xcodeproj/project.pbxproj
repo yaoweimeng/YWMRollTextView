@@ -1,0 +1,774 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		241347CEB207CFD0BDEFBFBE6708298A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		31FC45214FF246E921F2B278234D7AB8 /* YWMRollTextView-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 711689D6645F94BBA0676F7E2E5CA78B /* YWMRollTextView-dummy.m */; };
+		38052B2EB119DBBD399F3AB3A08B4A92 /* YWMRollTextView-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 85EDA9E76E963267A709B12BC6AAA179 /* YWMRollTextView-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		68538E1C8402D739C20DE28EF9B78821 /* Pods-YWMRollTextView_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = B04488256E784A6365AFB68C311A2A1F /* Pods-YWMRollTextView_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		6F0AD684A0ED3652203215F130866372 /* Pods-YWMRollTextView_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = C7FC6E9F120140C2686FC0064B40457D /* Pods-YWMRollTextView_Tests-dummy.m */; };
+		A353A6682ABDC44F3272C74922CD38CE /* Pods-YWMRollTextView_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = D6CF1BC32ECE0076AE4C9340D9B5A9B0 /* Pods-YWMRollTextView_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B925469642CA0CB03793747B3620234B /* YWMRollTextView.m in Sources */ = {isa = PBXBuildFile; fileRef = DFF4EF514931B0DAB272802358621412 /* YWMRollTextView.m */; };
+		B9464BE1B0582D9A9B416535D5E28424 /* YWMRollTextView.h in Headers */ = {isa = PBXBuildFile; fileRef = 9A5DC57694E5AEDDA42A9A464D43E5DC /* YWMRollTextView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		BA9004EB6E975AAB410973294D92D8B0 /* Pods-YWMRollTextView_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 0E4B83ED7619EEC6981955E87FEBA2C2 /* Pods-YWMRollTextView_Example-dummy.m */; };
+		EB5F4A0EE36AFE7B393D0D662798FD19 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		F64718680E9106145128DAB02899E4AA /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		527E308546720B041C5C19D33E277603 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6C21A65F45018CA6BE5559E49329EDF8;
+			remoteInfo = YWMRollTextView;
+		};
+		B315F77F52612134A7F15106B6160180 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 79CB86E1E999CBA1079042E22B87E054;
+			remoteInfo = "Pods-YWMRollTextView_Example";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0E4B83ED7619EEC6981955E87FEBA2C2 /* Pods-YWMRollTextView_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-YWMRollTextView_Example-dummy.m"; sourceTree = "<group>"; };
+		0FE5945BAEBD37643B9A3F133A083845 /* Pods_YWMRollTextView_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_YWMRollTextView_Example.framework; path = "Pods-YWMRollTextView_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		1A4B196DB19FEBF85B53566D4241F4F0 /* Pods_YWMRollTextView_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_YWMRollTextView_Tests.framework; path = "Pods-YWMRollTextView_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		2D8C2FBF082D40D75E69E175CD3D1C5F /* Pods-YWMRollTextView_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-YWMRollTextView_Tests.modulemap"; sourceTree = "<group>"; };
+		3C961D11A80F61A39F6DE9D82FFE3DE6 /* Pods-YWMRollTextView_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-YWMRollTextView_Example.release.xcconfig"; sourceTree = "<group>"; };
+		421F4CE51B5F0923822599C3544F533F /* Pods-YWMRollTextView_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-YWMRollTextView_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		62EE123E1A5133E2222C8DAAD57721AA /* Pods-YWMRollTextView_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-YWMRollTextView_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		63FF493F8F024387B76DD697BCA87705 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		650B4CBAEE7433A8F93299DC1E5D695E /* Pods-YWMRollTextView_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-YWMRollTextView_Example-Info.plist"; sourceTree = "<group>"; };
+		6E676E9458A599CC8C32A402431E3420 /* YWMRollTextView-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "YWMRollTextView-Info.plist"; sourceTree = "<group>"; };
+		711689D6645F94BBA0676F7E2E5CA78B /* YWMRollTextView-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "YWMRollTextView-dummy.m"; sourceTree = "<group>"; };
+		73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		7784D86CA0D62482908BB92A4A13CB40 /* Pods-YWMRollTextView_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-YWMRollTextView_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		85EDA9E76E963267A709B12BC6AAA179 /* YWMRollTextView-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "YWMRollTextView-umbrella.h"; sourceTree = "<group>"; };
+		9265AEC1076AD325606922848198EDD6 /* Pods-YWMRollTextView_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-YWMRollTextView_Tests-Info.plist"; sourceTree = "<group>"; };
+		9A5DC57694E5AEDDA42A9A464D43E5DC /* YWMRollTextView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = YWMRollTextView.h; path = YWMRollTextView/Classes/YWMRollTextView.h; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		A321FD307C79B300214B9BA413DD980A /* YWMRollTextView.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = YWMRollTextView.release.xcconfig; sourceTree = "<group>"; };
+		A339F613CE42BC1F7BD74856A6633D13 /* YWMRollTextView.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = YWMRollTextView.framework; path = YWMRollTextView.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A7234EC754EC93DD385D9381F0AC9380 /* YWMRollTextView.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = YWMRollTextView.modulemap; sourceTree = "<group>"; };
+		AC200CDECA84A2DC2155A29798D4EF2B /* Pods-YWMRollTextView_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-YWMRollTextView_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		B04488256E784A6365AFB68C311A2A1F /* Pods-YWMRollTextView_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-YWMRollTextView_Tests-umbrella.h"; sourceTree = "<group>"; };
+		B05CBE6250B0F821666607B34110A676 /* YWMRollTextView-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "YWMRollTextView-prefix.pch"; sourceTree = "<group>"; };
+		B6CBB6EEEF1D88C28CF60B1C490F8835 /* Pods-YWMRollTextView_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-YWMRollTextView_Example.modulemap"; sourceTree = "<group>"; };
+		B914F2C2789E56FC58926E8326948E82 /* Pods-YWMRollTextView_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-YWMRollTextView_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		C4941CE98B3BBF70CFE1D533C4C692E9 /* YWMRollTextView.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = YWMRollTextView.debug.xcconfig; sourceTree = "<group>"; };
+		C7FC6E9F120140C2686FC0064B40457D /* Pods-YWMRollTextView_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-YWMRollTextView_Tests-dummy.m"; sourceTree = "<group>"; };
+		D5A6B5F9E191638F94496D5B3B8CE7C1 /* YWMRollTextView.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = YWMRollTextView.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		D5F62A276C7B0B5FDEC8C87FD39807B3 /* Pods-YWMRollTextView_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-YWMRollTextView_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		D61ABB8444EAFEDAD30FC20B2E92E82F /* Pods-YWMRollTextView_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-YWMRollTextView_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		D6CF1BC32ECE0076AE4C9340D9B5A9B0 /* Pods-YWMRollTextView_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-YWMRollTextView_Example-umbrella.h"; sourceTree = "<group>"; };
+		DB6B841E5E92C80543F4128955D1EF87 /* Pods-YWMRollTextView_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-YWMRollTextView_Example-frameworks.sh"; sourceTree = "<group>"; };
+		DFF4EF514931B0DAB272802358621412 /* YWMRollTextView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = YWMRollTextView.m; path = YWMRollTextView/Classes/YWMRollTextView.m; sourceTree = "<group>"; };
+		E64D3F1CB4AA71F43DB8BD7AA2352CF0 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		9B7CE5763FA50A82DDEA6C1B9BB3F65C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				241347CEB207CFD0BDEFBFBE6708298A /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A94BEDBEAE00F2D92EE853549F0FF0BC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F64718680E9106145128DAB02899E4AA /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D7560F0F14F89127D2387749B9E7588E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EB5F4A0EE36AFE7B393D0D662798FD19 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		578452D2E740E91742655AC8F1636D1F /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		6CEA42268CA95DD36A930C6523626022 /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				970A1ABA3C9E6CAE6D60F5FBF643612F /* YWMRollTextView */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		8412CF251582377AE10374F27D0F06D2 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				A7234EC754EC93DD385D9381F0AC9380 /* YWMRollTextView.modulemap */,
+				711689D6645F94BBA0676F7E2E5CA78B /* YWMRollTextView-dummy.m */,
+				6E676E9458A599CC8C32A402431E3420 /* YWMRollTextView-Info.plist */,
+				B05CBE6250B0F821666607B34110A676 /* YWMRollTextView-prefix.pch */,
+				85EDA9E76E963267A709B12BC6AAA179 /* YWMRollTextView-umbrella.h */,
+				C4941CE98B3BBF70CFE1D533C4C692E9 /* YWMRollTextView.debug.xcconfig */,
+				A321FD307C79B300214B9BA413DD980A /* YWMRollTextView.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/YWMRollTextView";
+			sourceTree = "<group>";
+		};
+		970A1ABA3C9E6CAE6D60F5FBF643612F /* YWMRollTextView */ = {
+			isa = PBXGroup;
+			children = (
+				9A5DC57694E5AEDDA42A9A464D43E5DC /* YWMRollTextView.h */,
+				DFF4EF514931B0DAB272802358621412 /* YWMRollTextView.m */,
+				FF0F407ED41DDA802399D944B864B6B5 /* Pod */,
+				8412CF251582377AE10374F27D0F06D2 /* Support Files */,
+			);
+			name = YWMRollTextView;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		B508B876EE51009A6199F142B0A8B9BF /* Pods-YWMRollTextView_Example */ = {
+			isa = PBXGroup;
+			children = (
+				B6CBB6EEEF1D88C28CF60B1C490F8835 /* Pods-YWMRollTextView_Example.modulemap */,
+				D61ABB8444EAFEDAD30FC20B2E92E82F /* Pods-YWMRollTextView_Example-acknowledgements.markdown */,
+				B914F2C2789E56FC58926E8326948E82 /* Pods-YWMRollTextView_Example-acknowledgements.plist */,
+				0E4B83ED7619EEC6981955E87FEBA2C2 /* Pods-YWMRollTextView_Example-dummy.m */,
+				DB6B841E5E92C80543F4128955D1EF87 /* Pods-YWMRollTextView_Example-frameworks.sh */,
+				650B4CBAEE7433A8F93299DC1E5D695E /* Pods-YWMRollTextView_Example-Info.plist */,
+				D6CF1BC32ECE0076AE4C9340D9B5A9B0 /* Pods-YWMRollTextView_Example-umbrella.h */,
+				7784D86CA0D62482908BB92A4A13CB40 /* Pods-YWMRollTextView_Example.debug.xcconfig */,
+				3C961D11A80F61A39F6DE9D82FFE3DE6 /* Pods-YWMRollTextView_Example.release.xcconfig */,
+			);
+			name = "Pods-YWMRollTextView_Example";
+			path = "Target Support Files/Pods-YWMRollTextView_Example";
+			sourceTree = "<group>";
+		};
+		BA6F5E678A472C9377429783B34024C6 /* Pods-YWMRollTextView_Tests */ = {
+			isa = PBXGroup;
+			children = (
+				2D8C2FBF082D40D75E69E175CD3D1C5F /* Pods-YWMRollTextView_Tests.modulemap */,
+				62EE123E1A5133E2222C8DAAD57721AA /* Pods-YWMRollTextView_Tests-acknowledgements.markdown */,
+				D5F62A276C7B0B5FDEC8C87FD39807B3 /* Pods-YWMRollTextView_Tests-acknowledgements.plist */,
+				C7FC6E9F120140C2686FC0064B40457D /* Pods-YWMRollTextView_Tests-dummy.m */,
+				9265AEC1076AD325606922848198EDD6 /* Pods-YWMRollTextView_Tests-Info.plist */,
+				B04488256E784A6365AFB68C311A2A1F /* Pods-YWMRollTextView_Tests-umbrella.h */,
+				421F4CE51B5F0923822599C3544F533F /* Pods-YWMRollTextView_Tests.debug.xcconfig */,
+				AC200CDECA84A2DC2155A29798D4EF2B /* Pods-YWMRollTextView_Tests.release.xcconfig */,
+			);
+			name = "Pods-YWMRollTextView_Tests";
+			path = "Target Support Files/Pods-YWMRollTextView_Tests";
+			sourceTree = "<group>";
+		};
+		CF1408CF629C7361332E53B88F7BD30C = {
+			isa = PBXGroup;
+			children = (
+				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
+				6CEA42268CA95DD36A930C6523626022 /* Development Pods */,
+				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
+				D3B30D1CDCC07A4E58A6038F9A331903 /* Products */,
+				EC9A4CA43E5F3B82596162536E54211D /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				578452D2E740E91742655AC8F1636D1F /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D3B30D1CDCC07A4E58A6038F9A331903 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				0FE5945BAEBD37643B9A3F133A083845 /* Pods_YWMRollTextView_Example.framework */,
+				1A4B196DB19FEBF85B53566D4241F4F0 /* Pods_YWMRollTextView_Tests.framework */,
+				A339F613CE42BC1F7BD74856A6633D13 /* YWMRollTextView.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		EC9A4CA43E5F3B82596162536E54211D /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				B508B876EE51009A6199F142B0A8B9BF /* Pods-YWMRollTextView_Example */,
+				BA6F5E678A472C9377429783B34024C6 /* Pods-YWMRollTextView_Tests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		FF0F407ED41DDA802399D944B864B6B5 /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				E64D3F1CB4AA71F43DB8BD7AA2352CF0 /* LICENSE */,
+				63FF493F8F024387B76DD697BCA87705 /* README.md */,
+				D5A6B5F9E191638F94496D5B3B8CE7C1 /* YWMRollTextView.podspec */,
+			);
+			name = Pod;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		152D05A15B4BD29EF261F187BDAD06D3 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A353A6682ABDC44F3272C74922CD38CE /* Pods-YWMRollTextView_Example-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E4BDFA38BD13AD6006F074A44B0925B5 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B9464BE1B0582D9A9B416535D5E28424 /* YWMRollTextView.h in Headers */,
+				38052B2EB119DBBD399F3AB3A08B4A92 /* YWMRollTextView-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F9C8DC158F20620A1FFBF173C567372D /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				68538E1C8402D739C20DE28EF9B78821 /* Pods-YWMRollTextView_Tests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		6C21A65F45018CA6BE5559E49329EDF8 /* YWMRollTextView */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5BB4E0E3C8FFE870FBE982A417BED8EE /* Build configuration list for PBXNativeTarget "YWMRollTextView" */;
+			buildPhases = (
+				E4BDFA38BD13AD6006F074A44B0925B5 /* Headers */,
+				D42EE138E31F3C45CAF0D5B251A628E0 /* Sources */,
+				9B7CE5763FA50A82DDEA6C1B9BB3F65C /* Frameworks */,
+				0E6DCED534ED306B654FDF1DC82CADBA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = YWMRollTextView;
+			productName = YWMRollTextView;
+			productReference = A339F613CE42BC1F7BD74856A6633D13 /* YWMRollTextView.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		70A40A0CA9F2E623A7FF19BAAC227362 /* Pods-YWMRollTextView_Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2E8DD204FE30ACBD9B9A9135C9342F56 /* Build configuration list for PBXNativeTarget "Pods-YWMRollTextView_Tests" */;
+			buildPhases = (
+				F9C8DC158F20620A1FFBF173C567372D /* Headers */,
+				22A84A0BC1197750902D5783D68987CF /* Sources */,
+				D7560F0F14F89127D2387749B9E7588E /* Frameworks */,
+				6C52A480C49A02A977AF301D377AF140 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				0224579C08FBA6BB1CF94FC50A84FBDE /* PBXTargetDependency */,
+			);
+			name = "Pods-YWMRollTextView_Tests";
+			productName = "Pods-YWMRollTextView_Tests";
+			productReference = 1A4B196DB19FEBF85B53566D4241F4F0 /* Pods_YWMRollTextView_Tests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		79CB86E1E999CBA1079042E22B87E054 /* Pods-YWMRollTextView_Example */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 844A7D86E9A186E5C51498D805733AE9 /* Build configuration list for PBXNativeTarget "Pods-YWMRollTextView_Example" */;
+			buildPhases = (
+				152D05A15B4BD29EF261F187BDAD06D3 /* Headers */,
+				3BD3FE2836FCF01CF54E40013A6E92D3 /* Sources */,
+				A94BEDBEAE00F2D92EE853549F0FF0BC /* Frameworks */,
+				EADC2E9340E2BDD161D699E0E4061F0E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8583BF745DB547A96AE8AAB63E8838EC /* PBXTargetDependency */,
+			);
+			name = "Pods-YWMRollTextView_Example";
+			productName = "Pods-YWMRollTextView_Example";
+			productReference = 0FE5945BAEBD37643B9A3F133A083845 /* Pods_YWMRollTextView_Example.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1240;
+				LastUpgradeCheck = 1240;
+			};
+			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
+			productRefGroup = D3B30D1CDCC07A4E58A6038F9A331903 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				79CB86E1E999CBA1079042E22B87E054 /* Pods-YWMRollTextView_Example */,
+				70A40A0CA9F2E623A7FF19BAAC227362 /* Pods-YWMRollTextView_Tests */,
+				6C21A65F45018CA6BE5559E49329EDF8 /* YWMRollTextView */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		0E6DCED534ED306B654FDF1DC82CADBA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6C52A480C49A02A977AF301D377AF140 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EADC2E9340E2BDD161D699E0E4061F0E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		22A84A0BC1197750902D5783D68987CF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6F0AD684A0ED3652203215F130866372 /* Pods-YWMRollTextView_Tests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3BD3FE2836FCF01CF54E40013A6E92D3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BA9004EB6E975AAB410973294D92D8B0 /* Pods-YWMRollTextView_Example-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D42EE138E31F3C45CAF0D5B251A628E0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B925469642CA0CB03793747B3620234B /* YWMRollTextView.m in Sources */,
+				31FC45214FF246E921F2B278234D7AB8 /* YWMRollTextView-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		0224579C08FBA6BB1CF94FC50A84FBDE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-YWMRollTextView_Example";
+			target = 79CB86E1E999CBA1079042E22B87E054 /* Pods-YWMRollTextView_Example */;
+			targetProxy = B315F77F52612134A7F15106B6160180 /* PBXContainerItemProxy */;
+		};
+		8583BF745DB547A96AE8AAB63E8838EC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = YWMRollTextView;
+			target = 6C21A65F45018CA6BE5559E49329EDF8 /* YWMRollTextView */;
+			targetProxy = 527E308546720B041C5C19D33E277603 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		25AD9454612BF454A1E3DC4CD4FA8C6D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		5C2AF44AC75021733BC26D1F78BCC71F /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = AC200CDECA84A2DC2155A29798D4EF2B /* Pods-YWMRollTextView_Tests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-YWMRollTextView_Tests/Pods-YWMRollTextView_Tests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-YWMRollTextView_Tests/Pods-YWMRollTextView_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		7776D6A320A47D6B0FAC70930F424E44 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 421F4CE51B5F0923822599C3544F533F /* Pods-YWMRollTextView_Tests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-YWMRollTextView_Tests/Pods-YWMRollTextView_Tests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-YWMRollTextView_Tests/Pods-YWMRollTextView_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		9C33C214E366FEC931C2DE65171492E7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C4941CE98B3BBF70CFE1D533C4C692E9 /* YWMRollTextView.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/YWMRollTextView/YWMRollTextView-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/YWMRollTextView/YWMRollTextView-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/YWMRollTextView/YWMRollTextView.modulemap";
+				PRODUCT_MODULE_NAME = YWMRollTextView;
+				PRODUCT_NAME = YWMRollTextView;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		CA547D2C7E9A8A153DC2B27FBE00B112 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		DE799C403308295D06644890C9D4DF12 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7784D86CA0D62482908BB92A4A13CB40 /* Pods-YWMRollTextView_Example.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-YWMRollTextView_Example/Pods-YWMRollTextView_Example-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-YWMRollTextView_Example/Pods-YWMRollTextView_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		E304C4BCD2BF68E55E09484D193B8120 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A321FD307C79B300214B9BA413DD980A /* YWMRollTextView.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/YWMRollTextView/YWMRollTextView-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/YWMRollTextView/YWMRollTextView-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/YWMRollTextView/YWMRollTextView.modulemap";
+				PRODUCT_MODULE_NAME = YWMRollTextView;
+				PRODUCT_NAME = YWMRollTextView;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		F97BEB41825D92377003162A73251F4D /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3C961D11A80F61A39F6DE9D82FFE3DE6 /* Pods-YWMRollTextView_Example.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-YWMRollTextView_Example/Pods-YWMRollTextView_Example-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-YWMRollTextView_Example/Pods-YWMRollTextView_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2E8DD204FE30ACBD9B9A9135C9342F56 /* Build configuration list for PBXNativeTarget "Pods-YWMRollTextView_Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7776D6A320A47D6B0FAC70930F424E44 /* Debug */,
+				5C2AF44AC75021733BC26D1F78BCC71F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				25AD9454612BF454A1E3DC4CD4FA8C6D /* Debug */,
+				CA547D2C7E9A8A153DC2B27FBE00B112 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5BB4E0E3C8FFE870FBE982A417BED8EE /* Build configuration list for PBXNativeTarget "YWMRollTextView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9C33C214E366FEC931C2DE65171492E7 /* Debug */,
+				E304C4BCD2BF68E55E09484D193B8120 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		844A7D86E9A186E5C51498D805733AE9 /* Build configuration list for PBXNativeTarget "Pods-YWMRollTextView_Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DE799C403308295D06644890C9D4DF12 /* Debug */,
+				F97BEB41825D92377003162A73251F4D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+}

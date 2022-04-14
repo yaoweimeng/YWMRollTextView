@@ -1,0 +1,22 @@
+{
+  "name": "YWMRollTextView",
+  "version": "0.1.0",
+  "summary": "A short description of YWMRollTextView.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/yaoweimeng225@163.com/YWMRollTextView",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "yaoweimeng225@163.com": "“2853823211@qq.com”"
+  },
+  "source": {
+    "git": "https://github.com/yaoweimeng225@163.com/YWMRollTextView.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "9.0"
+  },
+  "source_files": "YWMRollTextView/Classes/**/*"
+}

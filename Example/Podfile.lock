@@ -1,0 +1,16 @@
+PODS:
+  - YWMRollTextView (0.1.0)
+
+DEPENDENCIES:
+  - YWMRollTextView (from `../`)
+
+EXTERNAL SOURCES:
+  YWMRollTextView:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  YWMRollTextView: 2b7dee1c72ecceed602a65e5f36753afa52948a4
+
+PODFILE CHECKSUM: 24b1c2c0bd6043f14e23e8bb26f11c0afddcaba0
+
+COCOAPODS: 1.10.1

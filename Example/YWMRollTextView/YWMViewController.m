@@ -7,6 +7,7 @@
 //
 
 #import "YWMViewController.h"
+#import "YWMRollTextView.h"
 
 @interface YWMViewController ()
 
@@ -17,6 +18,8 @@
 - (void)viewDidLoad
 {
     [super viewDidLoad];
+    YWMRollTextView *rollView = [[YWMRollTextView alloc] initWithFrame:CGRectMake(0, 300, self.view.frame.size.width, 24)];
+    [self.view addSubview:rollView];
 	// Do any additional setup after loading the view, typically from a nib.
 }
 
